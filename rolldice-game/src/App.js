@@ -1,11 +1,14 @@
 import './App.css';
-import RollDice from './components/RollDice'
+import Die from './components/Die'
 
 
 function App() {
   return (
     <div className="App">
-      <RollDice/>
+      <Die face='five'/>
+      <Die face='six'/>
+      <Die face='three'/>
+      <Die face='two'/>
     </div>
   );
 }
